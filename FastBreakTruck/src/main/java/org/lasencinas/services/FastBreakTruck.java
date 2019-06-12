@@ -2,6 +2,7 @@ package org.lasencinas.services;
 
 import org.lasencinas.domain.Desayuno;
 import org.lasencinas.productos.Eyeholes;
+import org.lasencinas.productos.FleebJuice;
 import org.lasencinas.productos.Plumbus;
 import org.lasencinas.productos.Smiggles;
 import org.lasencinas.productos.TurbulentJuice;
@@ -27,10 +28,10 @@ public class FastBreakTruck {
 	public static Desayuno prepararSmiggles() {
 		Desayuno desayuno = new Desayuno();
 		Smiggles smig = new Smiggles();
-		TurbulentJuice turb = new TurbulentJuice();
+		FleebJuice flee = new FleebJuice();
 		
 		desayuno.insertarItem(smig);
-		desayuno.insertarItem(turb);
+		desayuno.insertarItem(flee);
 		return desayuno;
 	}
 	
