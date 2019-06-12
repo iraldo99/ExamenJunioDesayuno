@@ -2,14 +2,10 @@ package org.lasencinas.main;
 
 import org.lasencinas.domain.Desayuno;
 import org.lasencinas.services.FastBreakTruck;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
 public class FastBreakTruckApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(FastBreakTruckApplication.class, args);
 		/**
 		 * Desayuno Eyeholes
 		 */
@@ -32,11 +28,11 @@ public class FastBreakTruckApplication {
 		 * Plumbus
 		 */
 		
-		eyeDes = FastBreakTruck.prepararEyeHoles();
+		/*eyeDes = FastBreakTruck.prepararEyeHoles();
 		FastBreakTruck.incluirJuguete(eyeDes);
 		System.out.print("\nEyeholes con plumbus!");
 		eyeDes.mostrarItems();
-		System.out.print("Precio pedido: " + eyeDes.getCoste());
+		System.out.print("Precio pedido: " + eyeDes.getCoste());*/
 	}
 
 }

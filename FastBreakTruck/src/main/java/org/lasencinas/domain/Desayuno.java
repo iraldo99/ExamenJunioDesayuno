@@ -12,16 +12,21 @@ public class Desayuno {
 		
 	}
 	
+	public void insertarItem(Item item) {
+		this.items.add(item);
+	}
+	
 	public void mostrarItems() {
 		for(int i=0; i<items.size(); i++) {
-			System.out.println("Item: "+items.get(i).nombre()+
-							   ", Empaquetado: "+items.get(i).empaquetado()+
+			System.out.print("\nItem: "+items.get(i).nombre()+
+							   ", Empaquetado: "+items.get(i).empaquetado().envoltorio()+
 							   ", Precio: "+items.get(i).pvp());
 		}
+		System.out.println();
 	}
 	
 	public Float getCoste() {
-		Float total = null;
+		Float total = (float) 0;
 		for(int i=0; i<items.size(); i++) {
 			total = total + items.get(i).pvp();
 		}

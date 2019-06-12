@@ -12,10 +12,4 @@ public abstract class Cereales implements Item {
 		return caja;
 	}
 	
-	public String toString() {
-		
-		return null;
-		
-	};
-	
 }

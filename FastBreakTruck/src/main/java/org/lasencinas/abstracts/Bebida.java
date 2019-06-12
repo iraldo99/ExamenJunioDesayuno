@@ -12,9 +12,4 @@ public abstract class Bebida implements Item {
 		return tubo;
 	}
 	
-	public String toString() {
-		
-		return null;
-		
-	};
 }
