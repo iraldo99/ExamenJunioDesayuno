@@ -28,11 +28,11 @@ public class FastBreakTruckApplication {
 		 * Plumbus
 		 */
 		
-		/*eyeDes = FastBreakTruck.prepararEyeHoles();
+		eyeDes = FastBreakTruck.prepararEyeHoles();
 		FastBreakTruck.incluirJuguete(eyeDes);
 		System.out.print("\nEyeholes con plumbus!");
 		eyeDes.mostrarItems();
-		System.out.print("Precio pedido: " + eyeDes.getCoste());*/
+		System.out.print("Precio pedido: " + eyeDes.getCoste());
 	}
 
 }

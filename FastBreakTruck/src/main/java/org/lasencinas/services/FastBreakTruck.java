@@ -33,4 +33,11 @@ public class FastBreakTruck {
 		return desayuno;
 	}
 	
+	public static Desayuno incluirJuguete(Desayuno desayuno) {
+		Plumbus plum = new Plumbus();
+		
+		desayuno.insertarItem(plum);
+		return desayuno;
+	}
+	
 }
