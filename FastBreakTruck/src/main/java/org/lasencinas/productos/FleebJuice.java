@@ -3,10 +3,15 @@ package org.lasencinas.productos;
 import org.lasencinas.abstracts.Bebida;
 
 public class FleebJuice extends Bebida {
-	Float pvp = (float) 35.0;
+	private Float pvp = (float) 35.0;
+	private String nombre = "Fleeb juice";
+	
+	public FleebJuice() {
+		
+	}
 	
 	public String nombre() {
-		return "Fleeb juice";
+		return nombre;
 	}
 	
 	public Float pvp() {
