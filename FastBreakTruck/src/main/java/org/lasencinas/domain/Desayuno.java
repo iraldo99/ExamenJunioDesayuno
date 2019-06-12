@@ -13,6 +13,11 @@ public class Desayuno {
 	}
 	
 	public void insertarItem(Item item) {
+		if(item.nombre().equals("Plumbus") & noSonEyeholes()) {
+			System.out.println();
+			System.out.println("Sólo los Eyeholes pueden incluir Plumbus!");
+			return;
+		}
 		this.items.add(item);
 	}
 	
@@ -31,6 +36,15 @@ public class Desayuno {
 			total = total + items.get(i).pvp();
 		}
 		return total;
+	}
+	
+	private Boolean noSonEyeholes() {
+		for(int i=0; i<items.size(); i++) {
+			if(items.get(i).nombre().equals("Eyeholes")) {
+				return false;
+			}
+		}
+		return true;
 	}
 	
 }
