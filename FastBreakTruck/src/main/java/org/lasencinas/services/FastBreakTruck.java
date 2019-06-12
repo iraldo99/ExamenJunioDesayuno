@@ -2,6 +2,7 @@ package org.lasencinas.services;
 
 import org.lasencinas.domain.Desayuno;
 import org.lasencinas.productos.Eyeholes;
+import org.lasencinas.productos.Plumbus;
 import org.lasencinas.productos.Smiggles;
 import org.lasencinas.productos.TurbulentJuice;
 
